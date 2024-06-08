@@ -72,3 +72,13 @@ button:hover{
     border: 1px solid black;
     box-shadow: 0 1px 6px 0 gray;
 }
+.dropdown{
+    border: 1px solid gray;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 250px;
+    width: 300px;
+}
+.dropdown:hover{
+    box-shadow: 0 1px 6px 0 gray;
+}
