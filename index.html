@@ -4,29 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Google-web-page</title>
 </head>
 <body>
     <header class="header">
         <nav class="navbar">
-           <li><a class="navv" href="">Gmail</a></li> 
-           <li><a class="navv" href="">Images</a></li> 
-           <img class="image" src="./istockphoto-1208278186-170x170.jpg" alt="dropdown-icon">
+            <div class="element">
+                <li><a class="navv" href="">Gmail</a></li> 
+                <li><a class="navv" href="">Images</a></li>
+            </div>
+           
+           <div class="dropdown-wrapper">
+           <i id="dropdown-menu" class="material-icons">apps</i>
+           <div class="dropdown">
+            <div class="app">
+                <img class="dropdown-app" src="https://pluspng.com/img-png/google-logo-png-open-2000.png" alt="google search">
+                <p>Search</p>
+            </div>
+            <div class="app">
+                <img class="dropdown-app" src="https://pluspng.com/img-png/google-maps-png-google-maps-icon-1600.png" alt="google map">
+                <p>Maps</p>
+            </div>
+            <div class="app">
+                <img class="dropdown-app" src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png" alt="google drive">
+                <p>Drive</p>
+            </div>
+            <div class="app">
+                <img class="dropdown-app" src="https://static-00.iconduck.com/assets.00/google-calendar-icon-2048x2048-2mlvsa6u.png" alt="google calendar">
+                <p>Calendar</p>
+            </div>
+            <div class="app">
+                <img class="dropdown-app" src="https://blogs.acu.edu/innovation_foundry/files/2017/06/google_photos1600.png" alt="google photos">
+                <p>Photos</p>
+            </div>
+            <div class="app">
+                <img class="dropdown-app" src="https://i.pinimg.com/originals/09/96/92/099692d1d651d51b7caf3040fce0f748.png" alt="google keep">
+                <p>Keep</p>
+            </div>
+           </div>
            <img class="profile" src="./profile photo.png" alt="profile">
         </nav>
         <div class="content">
         <h1><span class="google-g">G</span><span class="google-oe">o</span><span class="google-o">o</span><span class="google-g">g</span><span class="google-l">l</span><span class="google-oe">e</span></h1>
-        <input class="search-btn" type="search" name="googlesearch" value="" src=""> <br>
+        <input class="search-btn" type="search" name="googlesearch" value="" src=""> <img class="voice-search" src="https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" alt="voice-search"><br>
         <button type="button">Google Search</button>
         <button type="button">I'm Feeling Lucky</button>
         </div>
-        <div class="dropdown">
-            <img class="dropdown-app" src="" alt="profile">
-            <img class="dropdown-app" src="" alt="profile">
-            <img class="dropdown-app" src="" alt="profile">
-            <img class="dropdown-app" src="" alt="profile">
-            <img class="dropdown-app" src="" alt="profile">
-            <img class="dropdown-app" src="" alt="profile">
+            
         </div>
     </header>
 </body>

@@ -3,18 +3,29 @@
     gap: 25px;
     float: right;
 }
+.element{
+    margin-top: 9px;
+    display: flex;
+    gap: 25px;
+}
 body{
     padding: 16px;
 }
 *{
     font-family: Arial, sans-serif;
 }
-.image{
+.material-icons{
     height: 30px;
     width: 30px;
 }
 .profile{
     height: 30px;
+    width: 30px;
+}
+.voice-search{
+    position: absolute;
+    right: 445px;
+    top: 400px;
     width: 30px;
 }
 li{
@@ -24,8 +35,7 @@ a{
     text-decoration: none;
 }
 .navv{
-    color: black;
-  
+    color: black; 
 }
 .navv:hover{
     text-decoration: underline;
@@ -35,9 +45,7 @@ a{
     text-align: center;
 }
 h1{
-    font-size: 72px;
-    
-   
+    font-size: 72px; 
 }
 .google-g{
     color: #3572EF;
@@ -72,16 +80,42 @@ button:hover{
     border: 1px solid black;
     box-shadow: 0 1px 6px 0 gray;
 }
+.dropdown-app{
+    width: 45px;
+    height: 45px;
+}
 .dropdown{
-    border: 1px solid gray;
-    background-color: #ffffff;
-    border-radius: 20px;
-    height: 250px;
-    width: 300px;
+    width: 290px;
+    padding: 20px 10px 20px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 100px;
+    display: none;
 }
 .dropdown:hover{
     box-shadow: 0 1px 6px 0 gray;
 }
-.image:hover{
-
+.app{
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+}
+.app:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;   
+}
+.dropdown-wrapper{
+    display: inline-block;
+}
+.dropdown-wrapper:hover .dropdown{
+    display: block;
+}
+.app > p{
+    color: rgba(0, 0, 0, 0, .87);
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding-top: 8px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
