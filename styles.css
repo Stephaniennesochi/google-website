@@ -119,3 +119,49 @@ button:hover{
     margin-right: 0px;
     margin-left: 0px;
 }
+@media (max-width: 600px){
+    .navv{
+        font-size: 14px; 
+    }
+    element{
+        margin-top: 5px;
+    }
+    h1{
+        font-size: 56px; 
+    }
+    .search-btn{
+        height: 45px;
+        width: 310px;
+    }
+    button{
+        font-size: 14px;
+    }
+}
+@media (min-width: 600px){
+    .search-btn{
+        height: 45px;
+        width: 310px;
+    }
+}
+@media (min-width: 768px){
+    .voice-search{
+        right: 120px;
+        top: 404px;
+    }
+    .search-btn{
+        height: 50px;
+        width: 680px;
+    }
+}
+@media (min-width: 1024px){
+    .voice-search{
+        right: 185px;
+        top: 404px;
+    }
+}
+@media (min-width: 1280px){
+    .voice-search{
+        right: 445px;
+        top: 404px;
+    }
+}
